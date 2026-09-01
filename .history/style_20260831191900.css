@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1 {
+    font-family: "Outfit", sans-serif;
+    color: #183B56;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+    font-size: clamp(2rem, 1.5714rem + 2.1429vw, 3.5rem);
+}
+
+h3 {
+    font-family: "Outfit", sans-serif;
+    color: #183B56;
+    text-align: center;
+
+    font-size: clamp(1.25rem, 1.1786rem + 0.3571vw, 1.5rem);
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    color: #5A7184;
+    text-align: center;
+
+    font-size: clamp(1rem, 0.9286rem + 0.3571vw, 1.25rem);
+}
+
+/*Cabeçalho*/
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+/*Hero*/
+
+.hero p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.bloco-pesquisa {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.lupa-titulo {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.search-now {
+    background-color: #1565D8;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    font-size: clamp(1rem, 0.9643rem + 0.1786vw, 1.125rem);
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.imagem-casa-hero {
+    width: 320px;
+    height: 500px;
+    object-fit: fill;
+}
+
+.hero h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.conjunto-logos1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.conjunto-logos2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.conjunto-logos3 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.underline {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
