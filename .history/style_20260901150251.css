@@ -1,0 +1,432 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1 {
+    font-family: "Outfit", sans-serif;
+    color: #183B56;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+    font-size: clamp(2rem, 1.5714rem + 2.1429vw, 3.5rem);
+}
+
+h2 {
+    color: #183B56;
+    font-family: "Outfit", sans-serif;
+}
+
+h3 {
+    font-family: "Outfit", sans-serif;
+    color: #183B56;
+
+    font-size: clamp(1.25rem, 1.1786rem + 0.3571vw, 1.5rem);
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    color: #5A7184;
+
+    font-size: clamp(1rem, 0.9286rem + 0.3571vw, 1.25rem);
+}
+
+/*Cabeçalho*/
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+/*Hero*/
+
+.hero p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.bloco-pesquisa {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.lupa-titulo {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.search-now {
+    background-color: #1565D8;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    font-size: clamp(1rem, 0.9643rem + 0.1786vw, 1.125rem);
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.hero h3 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+    text-align: center;
+}
+
+.conjunto-logos1 {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-around;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+.conjunto-logos2 {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-around;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.conjunto-logos3 {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-around;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.underline {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+/*About Us*/
+
+.about-us-introducao h3 {
+    color: #36B37E;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+    text-align: center;
+
+    font-size: clamp(0.875rem, 0.875rem + 0vw, 0.875rem);
+}
+
+.about-us-introducao h2 {
+    font-size: clamp(1.75rem, 1.6071rem + 0.7143vw, 2.25rem);
+    font-family: "Outfit", sans-serif;
+    color: #183B56;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    font-weight: 400;
+}
+
+.about-us-introducao img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.digital-era h2 {
+    font-size: clamp(1.5rem, 1.3571rem + 0.7143vw, 2rem);
+
+    text-align: center;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.digital-era p {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.about-us p {
+    text-align: center;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.about-us-veja {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    gap: 0.5rem;
+}
+
+.about-us-veja h3 {
+    margin-top: 0.3rem;
+    color:#1565D8;
+    text-align: center;
+}
+
+.about-us-casa-verde img {
+    display: block;
+    margin: 0 auto;
+}
+
+.about-us-casa-verde h2 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-us-casa-verde p {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+
+    margin-bottom: 2rem;
+}
+
+.about-us ul {
+    font-family: "Open Sans", sans-serif;
+    color: #183B56;
+    text-decoration: none;
+    font-size: clamp(1rem, 1rem + 0vw, 1rem);
+}
+
+.about-us li {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    gap: 0.5rem;
+}
+
+/*How Us Work*/
+
+.how-us-work h2 {
+    font-size: clamp(1.75rem, 1.6071rem + 0.7143vw, 2.25rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.how-us-work p {
+    color: #183B56;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    text-align: center;
+
+    margin-bottom: 1rem;
+}
+
+/*Card 1*/
+
+.how-us-work-passo1 img {
+    display: block;
+    margin: 0 auto;
+}
+
+.marcador-titulo-passo1 {
+    display: flex;
+    gap: 0.5rem;
+
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1.6rem;
+}
+
+.p-passo1 p {
+    text-align: left;
+    margin-left: 2.5rem;
+    font-size: clamp(0.875rem, 0.875rem + 0vw, 0.875rem);
+    color: #5A7184;
+}
+
+/*Card 2*/
+
+.how-us-work-passo2 img {
+    display: block;
+    margin: 0 auto;
+}
+
+.marcador-titulo-passo2 {
+    display: flex;
+    gap: 0.5rem;
+
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1.6rem;
+}
+
+.p-passo2 p {
+    text-align: left;
+    margin-left: 2.5rem;
+    font-size: clamp(0.875rem, 0.875rem + 0vw, 0.875rem);
+    color: #5A7184;
+}
+
+/*Card 3*/
+
+.how-us-work-passo3 img {
+    display: block;
+    margin: 0 auto;
+}
+
+.marcador-titulo-passo3 {
+    display: flex;
+    gap: 0.5rem;
+
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1.6rem;
+}
+
+.p-passo3 p {
+    text-align: left;
+    margin-left: 2.5rem;
+    margin-bottom: 2rem;
+    font-size: clamp(0.875rem, 0.875rem + 0vw, 0.875rem);
+    color: #5A7184;
+}
+
+.recomendacoes img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.recomendacoes p {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.button-about-us {
+    border-radius: 5px;
+    border: 2px solid #36B37E;
+    background-color: white;
+    color: #36B37E;
+    font-weight: bolder;
+
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+
+    font-size: 16px;
+
+    display: block;
+    margin: 0 auto;
+}
+
+.how-us-work-about-us p {
+    margin-top: 2rem;
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
+}
+
+.start-searching {
+    border-radius: 5px;
+    border: 2px solid #36B37E;
+    background-color: white;
+    color: #36B37E;
+    font-weight: bolder;
+
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+
+    font-size: 16px;
+
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+/*Dany Olmo*/
+
+.dany-olmo {
+    border-radius: 10px;
+    background-color: #F9FBFE;
+}
+
+.dany-olmo img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.dany-olmo p {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+
+    color: #183B56;
+    font-size: 18px;
+    font-weight: 350;
+    text-align: center;
+}
+
+.dany-olmo h3 {
+    text-align: center;
+}
+
+/*Dados*/
+
+.dinheiro {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dinheiro img {
+    width: 48px;
+    height: 48px;
+}
+
+.total-hospedeiros {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.total-hospedeiros img {
+    width: 48px;
+    height: 48px;
+}
+
+.conjunto-dados1 {
+    display: flex;
+    align-items: center;
+}
